@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>GameEvent</name>
+    <events>
+        <event-block>
+            <conditions>
+                <condition id="0" name="On collision with another object" type="player">
+                    <param id="0" name="Object">door</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" type="Text">
+                    <param id="0" name="Text">&quot;Entering door nr &quot;  &amp; door.nr</param>
+                </action>
+                <action id="-3" name="Set position" type="Text">
+                    <param id="0" name="X">scrollx</param>
+                    <param id="1" name="Y">scrolly</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
