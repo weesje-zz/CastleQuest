@@ -1,8 +1,1 @@
-mkdir CastleQuest
-cd CastleQuest
-git init
-touch README
-git add README
-git commit -m 'first commit'
-git remote add origin git@github.com:axelolsson/CastleQuest.git
-git push -u origin master
+Welcome to the public repo for CastleQuest. An adventure RPG game made entirely in the HTML5 game engine Construct 2 by [Scirra](http://www.scirra.com/).
